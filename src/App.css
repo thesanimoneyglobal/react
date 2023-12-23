@@ -1,0 +1,46 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #535bf2;
+}
+
+body {
+    padding: 2rem;
+    background-color: #f6f6f6;
+}
+
+.header {
+    margin-bottom: 5rem;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.nav-item:hover {
+    background-color: #f6f6f6;
+}
+
+.nav-item {
+    transition: background-color 0.3s;
+    border-radius: 3px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+@media screen and (max-width: 990px) {
+    .nav-item:nth-child(1) {
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+    }
+}
+
+.btn-order {
+    display: block;
+    max-width: 7rem;
+}
+
+.btn-increase {
+    margin-left: 5rem;
+}
